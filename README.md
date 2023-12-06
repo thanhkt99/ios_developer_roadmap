@@ -1,2 +1,2 @@
 # ios_developer_roadmap
-[ ] Language
+[x] Language
