@@ -1,2 +1,3 @@
 # ios_developer_roadmap
-<li>- [ ] </li> 
+ - [] Checkbox not checked
+ - [X] Checkbox checked
