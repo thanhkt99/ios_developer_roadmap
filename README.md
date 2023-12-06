@@ -1,11 +1,230 @@
 # ios_developer_roadmap
-- [X] Parent 1
-    - [X] Child - 1
-    - [X] Child - 2
-    - [X] Child - 3
-    - [X] Child - 4
-- [ ] Parent 2
-    - [ ] Child - 1
-    - [ ] Child - 2
-    - [ ] Child - 3
-    - [ ] Child - 4
+- [ ] Language
+    - [ ] Objective-C
+        - [ ] Blocks
+            - [ ] Memory Management
+        - [ ] KVC
+        - [ ] KVO
+        - [ ] Toll-free bridging
+        - [ ] Runtime
+            - [ ] Method messaging
+            - [ ] NSZombies and KVO implementation
+            - [ ] Swizzling
+    - [ ] Swift
+        - [ ] Closures
+        - [ ] Initializers
+        - [ ] Generics
+        - [ ] Protocols
+        - [ ] Structs
+        - [ ] Enums
+        - [ ] Runtime
+            - [ ] Method dispatch
+- [ ] Memory management
+    - [ ] Stack and Heap
+    - [ ] Value vs Reference type
+    - [ ] MRC
+    - [ ] ARC (Automatic Reference Counting)
+    - [ ] Retain cycles
+    - [ ] Garbage collection
+    - [ ] Memory leaks
+    - [ ] Shallow and deep copying
+    - [ ] Autorelease pool
+- [ ] Multithreading and concurrency
+    - [ ] POSIX and NSThreads
+    - [ ] Perform selector famuly
+    - [ ] GCD (Grand Central Dispatch)
+    - [ ] NSOperation [Queue]
+    - [ ] Runloop
+    - [ ] Sunchronization
+    - [ ] Problems
+        - [ ] Race condition
+        - [ ] Deadlock
+        - [ ] Readers-writers problem
+- [ ] Cocoa Touch
+    - [ ] UIKit
+        - [ ] UIApplecation
+            - [ ] States
+            - [ ] UIApplicationDelegate
+        - [ ] UIViews
+            - [ ] UITableView
+            - [ ] UICollectionView
+            - [ ] UIStackView
+            - [ ] UIScrollView
+        - [ ] Layers
+        - [ ] Layout
+            - [ ] Frame-based
+            - [ ] Autolayout
+                - [ ] UIStackView
+                - [ ] Constraints
+        - [ ] Animations
+        - [ ] Transform
+        - [ ] Navigation
+        - [ ] UIViewController
+            - [ ] Lifecycle
+        - [ ] UITableViewController
+            - [ ] Delegate
+            - [ ] Datasource
+        - [ ] UICollectionViewController
+            - [ ] Delegate
+            - [ ] Datasource
+            - [ ] LayoutDelegate
+    - [ ] Foundation
+        - [ ] Notifications vs Delegation vs Observing
+        - [ ] Collections
+        - [ ] Networking
+        - [ ] Serialization
+            - [ ] NSCoding
+            - [ ] Codable
+            - [ ] JSON
+            - [ ] XML
+            - [ ] Protobuf
+    - [ ] UserNotifications
+    - [ ] Core Location
+    - [ ] Core Motion
+    - [ ] Core Bluetooth
+    - [ ] Work in background mode
+- [ ] Software Architecture
+    - [ ] Design Patterns
+        - [ ] Cocoa
+            - [ ] Abstract Factory
+                - [ ] Class cluster
+            - [ ] Adapter
+            - [ ] Command Pattern
+            - [ ] Chain of Responsibility
+            - [ ] Decorator
+                - [ ] Delegation
+                - [ ] Categories
+            - [ ] Facade
+            - [ ] Memento
+            - [ ] Observer
+            - [ ] Proxy
+            - [ ] Receptionist
+            - [ ] Singleton
+            - [ ] Template Method
+            - [ ] MVC
+        - [ ] Architectureal
+            - [ ] MVC
+            - [ ] MVVM
+            - [ ] MVP
+            - [ ] Clean architecture
+                - [ ] VIPER
+                - [ ] RIBs
+            - [ ] Coordinators
+        - [ ] Creational
+            - [ ] Factory
+            - [ ] Abstract Factory
+            - [ ] Builder
+            - [ ] Factory Method
+            - [ ] Object Pool
+            - [ ] Prototype
+            - [ ] Singleton
+        - [ ] Structural
+            - [ ] Adapter
+            - [ ] Bridge
+            - [ ] Composite
+            - [ ] Decorator
+            - [ ] Dacade
+            - [ ] Flyreight
+            - [ ] Proxy
+        - [ ] Behavioural
+            - [ ] Command
+            - [ ] Chain of responsibility
+            - [ ] Interpreter
+            - [ ] Iterator
+            - [ ] Mediator
+            - [ ] Memento
+            - [ ] Observer
+            - [ ] State
+            - [ ] Strategy
+            - [ ] Visitor
+        - [ ] Concurrency
+            - [ ] Anti-pattern
+    - [ ] Design Principles
+        - [ ] SOLID
+        - [ ] Inversion of Control
+            - [ ] Dependency Injection
+            - [ ] Service Locator
+        - [ ] Protocol-Oriented Programming
+- [ ] Dependencies management
+    - [ ] Cocoapods
+    - [ ] Carthage
+    - [ ] SPM (Swift Package Manager)
+- [ ] Project structure and File/Group organization
+- [ ] Version Control Systems
+    - [ ] Git
+- [ ] Debugging
+    - [ ] Instruments
+    - [ ] Best practices
+        - [ ] Checklist
+        - [ ] Use case
+- [ ] UX
+    - [ ] UX principles
+- [ ] Caching and Persistency
+    - [ ] Core Data
+    - [ ] Realm
+    - [ ] YAPDatabase
+- [ ] Testing
+    - [ ] Unit Tests
+    - [ ] SnapshotTests
+    - [ ] Functional Tests
+    - [ ] TDD (Test-Driven Development)
+    - [ ] BDD (Behavior-Driven Development)
+- [ ] Performance Optimization
+    - [ ] Increase FPS
+    - [ ] Decrease memory footprint
+- [ ] Code signing
+    - [ ] IDE signing
+    - [ ] Apple developer account rules/ pricing
+- [ ] Tools
+    - [ ] IDE
+        - [ ] Xcode
+            - [ ] Interface Builder
+            - [ ] XIB files
+            - [ ] SwiftUI
+    - [ ] Swiftlint
+    - [ ] Sourcery
+    - [ ] Fastlane
+- [ ] Continuous Integration
+    - [ ] Jenkins
+    - [ ] Xcode Server
+- [ ] Security
+    - [ ] Keychain
+    - [ ] Security Transform API
+- [ ] Programming Paradigms
+    - [ ] Functional
+        - [ ] Functional Reactive Programming Frameworks
+            - [ ] RxRealm, RxDataSources
+            - [ ] RxSwift, RxCocoa
+            - [ ] React Native
+    - [ ] Object-Oriented
+- [ ] System Design
+    - [ ] Problems
+- [ ] Abstract Data Type
+    - [ ] Double-ended queue
+    - [ ] Double-ended priority queue
+    - [ ] Priority Queue
+    - [ ] Queue
+    - [ ] Graph
+        - [ ] Tree
+    - [ ] Multiset [Bag]
+    - [ ] Set
+    - [ ] Multimap
+    - [ ] Map
+    - [ ] List
+    - [ ] Array
+    - [ ] Stack
+    - [ ] Dictionary
+- [ ] Algorithms
+    - [ ] Big-O notation
+    - [ ] NP Complete
+    - [ ] Game Theory
+    - [ ] Recursion
+    - [ ] Bit Manipulation
+    - [ ] Dynamic Programming
+    - [ ] Greedy
+    - [ ] Strings
+    - [ ] Graph Theory
+        - [ ] Trees
+    - [ ] Sorting
+    - [ ] Filtering
+     
