@@ -11,7 +11,7 @@
             - [ ] NSZombies and KVO implementation
             - [ ] Swizzling
     - [ ] Swift
-        - [ ] Closures
+        - [x] Closures
         - [ ] Initializers
         - [ ] Generics
         - [ ] Protocols
