@@ -80,7 +80,7 @@ final class Closures {
             task()
         }
     }
-    
+
     func performDelayedTask() {
         performDelayedTask {
             print("This is an escaping closure")
@@ -91,7 +91,7 @@ final class Closures {
     func performTaskImmediately(task: () -> Void) {
         task()
     }
-    
+
     func performTaskImmediately() {
         performTaskImmediately {
             print("This is a non-escaping closure")
