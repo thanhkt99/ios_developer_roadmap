@@ -12,7 +12,7 @@
             - [ ] Swizzling
     - [ ] Swift
         - [x] Closures
-        - [ ] Initializers
+        - [x] Initializers
         - [ ] Generics
         - [ ] Protocols
         - [ ] Structs
