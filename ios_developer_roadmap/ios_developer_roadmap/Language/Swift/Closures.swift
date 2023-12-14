@@ -8,18 +8,21 @@
 import Foundation
 
 final class Closures {
-    // MARK: - Leason 1: Function
+    // MARK: - Leason 1: Functions, Closures
     /* Description
      Functions are some lines code, with the purpose is handle any logic or any task.
      params: Optional
      return: Optional
+     Function is the special case of Closures
+     Closure is return a func
+     Function is return a value/ no value
      */
     
     // Example:
     func sum(with a:Int, and b: Int) -> Int {
         return a + b
     }
-    // MARK: - Leason 2: Function Types
+    // MARK: - Function Types
     /*
      Function type is created by params type and return type of this function.
      Such as the above example, the function type is Int
@@ -77,7 +80,7 @@ final class Closures {
             task()
         }
     }
-
+    
     func performDelayedTask() {
         performDelayedTask {
             print("This is an escaping closure")
@@ -88,7 +91,7 @@ final class Closures {
     func performTaskImmediately(task: () -> Void) {
         task()
     }
-
+    
     func performTaskImmediately() {
         performTaskImmediately {
             print("This is a non-escaping closure")
