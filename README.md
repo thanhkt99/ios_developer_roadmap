@@ -13,7 +13,7 @@
     - [ ] Swift
         - [x] Closures
         - [x] Initializers
-        - [ ] Generics
+        - [x] Generics
         - [ ] Protocols
         - [ ] Structs
         - [ ] Enums
